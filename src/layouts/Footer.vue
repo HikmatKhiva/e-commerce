@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <template>
   <footer class="bg-black text-white">
-    <div class="container mx-auto p-5  md:flex justify-between">
+    <div class="container mx-auto p-5 flex-wrap gap-x-5 flex justify-between">
       <div class="mb-4 md:mb-0">
         <h2 class="text-xl md:text-lg font-bold mb-2">Exclusive</h2>
         <a href="#" class="block mb-2 text-sm">Subscribe</a>
