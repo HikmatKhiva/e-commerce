@@ -27,14 +27,15 @@
       </div>
       <!-- Category Images -->
       <div class="w-1/2 h-full flex flex-col gap-y-3">
-        <div class="gap-3 flex-grow h-1/2 ">
-          <img class="w-full h-full" src="../layouts/img/women.png" alt="women">
+        <div class="gap-3 flex-grow flex  bg-[#0D0D0D] h-1/2 ">
+          <div class="w-1/2"></div>
+          <img class="w-1/2 h-full object-cover" src="../layouts/img/women.png" alt="women">
         </div>
 
         <div class="flex gap-3 flex-grow h-1/2">
-          <div class="bg-black w-1/2">
+          <div class="bg-black w-1/2 grid place-items-center">
             <img
-              class="h-full w-full"
+              class="h-[80%] w-[80%] "
               src="../layouts/img/speaker.png"
               alt="speaker"
             />
