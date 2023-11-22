@@ -17,30 +17,35 @@
           src="../layouts/img/ps5.png"
           alt=""
         />
-        <div class="absolute bottom-10 left-10 text-[#FAFAFA] w-[300px] ">
+        <div class="absolute bottom-10 left-10 text-[#FAFAFA] w-[300px]">
           <h2 class="text-4xl">PlayStation 5</h2>
-          <p class="my-3">Black and White version of the PS5 coming out on sale.</p>
-          <a href="£" class="underline  underline-offset-4 text-2xl ">Shop now</a>
+          <p class="my-3">
+            Black and White version of the PS5 coming out on sale.
+          </p>
+          <a href="£" class="underline underline-offset-4 text-2xl">Shop now</a>
         </div>
       </div>
       <!-- Category Images -->
       <div class="w-1/2 h-full flex flex-col gap-y-3">
-        <div class="">
-
-          
+        <div class="gap-3 flex-grow h-1/2 ">
+          <img class="w-full h-full" src="../layouts/img/women.png" alt="women">
         </div>
-        
-        <div class="flex gap-3 flex-grow">
-          <img
-            class="w-full h-full object-cover"
-            src="../layouts/img/speaker.png"
-            alt=""
-          />
-          <img
-            class="w-full h-full object-cover"
-            src="../layouts/img/perfume.png"
-            alt=""
-          />
+
+        <div class="flex gap-3 flex-grow h-1/2">
+          <div class="bg-black w-1/2">
+            <img
+              class="h-full w-full"
+              src="../layouts/img/speaker.png"
+              alt="speaker"
+            />
+          </div>
+          <div class="bg-black w-1/2"  >
+            <img
+              class="h-full w-full"
+              src="../layouts/img/perfume.png"
+              alt="po"
+            />
+          </div>
         </div>
       </div>
     </div>
