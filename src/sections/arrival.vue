@@ -86,24 +86,42 @@
         </div>
       </div>
     </div>
-    <div class="flex justify-evenly my-11">
-      <div class="w-20 h-20 bg-red-500 rounded-[50%] grid place-items-center">
+    <div class="flex justify-evenly">
+      <div class="text-center">
+        <div class="w-20 h-20 bg-red-500 rounded-[50%] flex justify-center items-center mx-auto">
         <div class="w-14 h-14 bg-black rounded-[50%]">
           <img src="" alt="">
         </div>
+      </div>
+      <div class="t">
         <h2>FREE AND FAST DELIVERY</h2>
         <p>Free delivery for all orders over $140</p>
       </div>
-      <div class="">
-        <div class="">
+      </div>
+      <div class="text-center">
+        <div class="w-20 h-20 bg-red-500 rounded-[50%] flex justify-center items-center mx-auto">
+        <div class="w-14 h-14 bg-black rounded-[50%]">
           <img src="" alt="">
         </div>
       </div>
-      <div class="">
-        <div class="">
+      <div class="t">
+        <h2>FREE AND FAST DELIVERY</h2>
+        <p>Free delivery for all orders over $140</p>
+      </div>
+      </div>
+      <div class="text-center">
+        <div class="w-20 h-20 bg-[#2F2E30]  rounded-[50%] flex justify-center items-center mx-auto">
+        <div class="w-14 h-14 bg-black rounded-[50%]">
           <img src="" alt="">
         </div>
       </div>
+      <div class="t">
+        <h2>FREE AND FAST DELIVERY</h2>
+        <p>Free delivery for all orders over $140</p>
+      </div>
+      </div>
+
+
     </div>
   </div>
 </template>
