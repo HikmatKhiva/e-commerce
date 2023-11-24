@@ -1,13 +1,10 @@
 <template>
   <section class="py-10">
-    <div class="container mx-auto flex flex-col">
-      <SectionTopTitle title="Today’s" />
+    <div class="container mx-auto">
       <!-- Top -->
-      <div class="flex gap-20 justify-between">
-        <div class="flex gap-20">
-          <h2 class="text-4xl mt-3 font-inter">Flash Sales</h2>
-          <FlashTimer />
-        </div>
+      <SectionTopTitle title="Categories" />
+      <div class="flex justify-between">
+        <h2 class="text-4xl mt-3 font-inter">Browse By Category</h2>
         <div class="flex gap-2 mt-4">
           <button
             type="button"
@@ -16,7 +13,6 @@
             <Icon icon="mingcute:arrow-left-line" />
           </button>
           <button
-            @click="handleNext"
             type="button"
             class="bg-[#F5F5F5] w-8 h-8 rounded-full grid place-items-center"
           >
@@ -24,36 +20,31 @@
           </button>
         </div>
       </div>
-      <!-- Body -->
-      <div class="mt-5">
+      <!-- body -->
+      <div class="flex">
         <swiper
-          :slidesPerView="5"
+          :slidesPerView="6"
           :spaceBetween="30"
           :autoplay="{ delay: 3000 }"
           :pagination="{
             clickable: true,
           }"
           :modules="[Autoplay]"
-          class="mySwiper flex gap-8"
+          class="mySwiper flex gap-8 mt-10"
         >
-          <swiper-slide v-for="item in 10" :key="item">
-            <FlashCard />
+          <swiper-slide v-for="category in categories" :key="category.id">
+            <CategoryCard :category="category" />
           </swiper-slide>
         </swiper>
       </div>
-      <button
-        class="bg-[#DB4444] mt-7 text-white py-3 px-5 rounded w-[200px] mx-auto font-poppins"
-      >
-        View All Products
-      </button>
     </div>
   </section>
 </template>
 <script setup>
 import { Icon } from "@iconify/vue";
-import FlashTimer from "../components/FlashTimer.vue";
+import CategoryCard from "../components/CategoryCard.vue";
 import SectionTopTitle from "../components/SectionTopTitle.vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Autoplay } from "swiper/modules";
-import FlashCard from "../components/FlashCard.vue";
+import { categories } from "../config";
 </script>

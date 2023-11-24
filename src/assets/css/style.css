@@ -2,3 +2,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.category-card:hover {
+    @apply text-white bg-[#DB4444]
+}
+.category-card:hover > img{
+    filter: brightness(0) invert(1);
+}
+
