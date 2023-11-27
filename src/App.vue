@@ -10,6 +10,7 @@ export default {
 </script>
 
 <template>
+  
   <Header />
   <div>
     <h2>App Vue</h2>
