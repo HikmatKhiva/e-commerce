@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Poppins:wght@300;400;500;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.category-card:hover {
+    @apply text-white bg-[#DB4444]
+}
+.category-card:hover > img{
+    filter: brightness(0) invert(1);
+}
+
