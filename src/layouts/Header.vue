@@ -4,8 +4,8 @@
   <nav class="">
     <div class=" container mx-auto">
       <div class="flex items-center">
-        <div class="flex j-between w-[70%]  items-center ">
-          <div class="items-center">
+        <div class="flex j-between py-2 w-[70%] items-center ">
+          <div class="items-center justify-center">
             <a href="#" class="text-lg font-semibold">Exclusive</a>
           </div>
           <div class=" md:block">
