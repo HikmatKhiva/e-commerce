@@ -9,13 +9,13 @@
     <div class="text-4xl m-0 font-semibold my-2">
       <h2>New Arrival</h2>
     </div>
-    <div class="flex justify-between gap-x-3 h-[800px] my-5 mt-8 rounded-sm">
+    <div class="flex justify-between gap-x-3 h-[600px] my-5 mt-8 rounded-sm">
       <!-- Large Image -->
       <div class="relative w-1/2 rounded-md h-full bg-black">
         <img
-          class="w-full h-full object-cover"
+          class="w-full h-full object-contain"
           src="../layouts/img/ps5.png"
-          alt=""
+          alt="ps5"
         />
         <div class="absolute bottom-10 left-10 text-[#FAFAFA] w-[300px]">
           <h2 class="text-4xl">PlayStation 5</h2>
@@ -51,7 +51,7 @@
         <div class="flex gap-3 flex-grow h-1/2 relative">
           <div class="bg-black w-1/2 grid rounded-md place-items-center">
             <img
-              class="h-[80%] w-[80%]"
+              class="h-[70%] w-[80%] object-contain"
               src="../layouts/img/speaker.png"
               alt="speaker"
             />
@@ -69,7 +69,7 @@
             class="bg-black rounded-md w-1/2 grid place-items-center relative"
           >
             <img
-              class="h-[80%] w-[80%]"
+              class="h-[70%] w-[80%] object-contain"
               src="../layouts/img/perfume.png"
               alt="po"
             />
@@ -85,43 +85,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="flex justify-evenly">
-      <div class="text-center">
-        <div class="w-20 h-20 bg-red-500 rounded-[50%] flex justify-center items-center mx-auto">
-        <div class="w-14 h-14 bg-black rounded-[50%]">
-          <img src="" alt="">
-        </div>
-      </div>
-      <div class="t">
-        <h2>FREE AND FAST DELIVERY</h2>
-        <p>Free delivery for all orders over $140</p>
-      </div>
-      </div>
-      <div class="text-center">
-        <div class="w-20 h-20 bg-red-500 rounded-[50%] flex justify-center items-center mx-auto">
-        <div class="w-14 h-14 bg-black rounded-[50%]">
-          <img src="" alt="">
-        </div>
-      </div>
-      <div class="t">
-        <h2>FREE AND FAST DELIVERY</h2>
-        <p>Free delivery for all orders over $140</p>
-      </div>
-      </div>
-      <div class="text-center">
-        <div class="w-20 h-20 bg-[#2F2E30]  rounded-[50%] flex justify-center items-center mx-auto">
-        <div class="w-14 h-14 bg-black rounded-[50%]">
-          <img src="" alt="">
-        </div>
-      </div>
-      <div class="t">
-        <h2>FREE AND FAST DELIVERY</h2>
-        <p>Free delivery for all orders over $140</p>
-      </div>
-      </div>
-
-
     </div>
   </div>
 </template>
