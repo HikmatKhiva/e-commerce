@@ -1,4 +1,5 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 <template>
   <nav class="">
     <div class=" container mx-auto">
@@ -17,9 +18,12 @@
           </div>
         </div>
         <div class="hidden md:block">
-          <input type="text" class="border px-3 rounded text-sm placeholder:text-slate-400"
+          <!-- <font-awesome-icon icon="fa-solid fa-magnifying-glass" /> -->
+          <input type="text" class="border rounded  text-sm bg-slate-50 w-full md:w-auto placeholder:text-slate-400"
             placeholder="What are you looking for">
           <div class="mr-2 flex md:hidden">
+            <!-- <font-awesome-icon class="relative" icon="fa-regular fa-heart" />
+            <font-awesome-icon class="relative" icon="fa-solid fa-cart-shopping" /> -->
           </div>
         </div>
       </div>
