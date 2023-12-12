@@ -1,12 +1,12 @@
 <template>
-  <Hero />
+  <HeroSection />
   <FlashSection />
   <hr class="container mx-auto" />
-  <Category />
-  <Arrival />
+  <CategorySection />
+  <ArrivalSection />
   <ServiceSection />
-  <BestSelling />
+  <BestSellingSection />
 </template>
 <script setup>
-import { Arrival, Category, FlashSection, ServiceSection,BestSelling,Hero } from "../sections";
+import { ArrivalSection, CategorySection, FlashSection, ServiceSection,BestSellingSection,HeroSection } from "../sections";
 </script>
