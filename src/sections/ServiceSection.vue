@@ -1,6 +1,6 @@
 <template>
   <section class="py-28">
-    <div class="flex justify-evenly">
+    <div class="flex justify-between container mx-auto">
       <div
         class="text-center font-poppins"
         v-for="service in services"
