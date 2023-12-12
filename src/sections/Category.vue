@@ -44,7 +44,7 @@
 import { Icon } from "@iconify/vue";
 import CategoryCard from "../components/CategoryCard.vue";
 import SectionTopTitle from "../components/SectionTopTitle.vue";
-import { Swiper, SwiperSlide } from "swiper/vue";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/vue";
 import { Autoplay } from "swiper/modules";
 import { categories } from "../config";
 </script>
