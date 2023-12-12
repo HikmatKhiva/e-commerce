@@ -1,6 +1,6 @@
-export { default as Arrival } from "./ArrivalSection.vue";
-export { default as Category } from "./Category.vue";
+export { default as ArrivalSection } from "./ArrivalSection.vue";
+export { default as CategorySection } from "./CategorySection.vue";
 export { default as FlashSection } from "./FlashSection.vue";
-export { default as Hero } from "./Hero.vue";
+export { default as HeroSection } from "./HeroSection.vue";
 export { default as ServiceSection } from "./ServiceSection.vue";
-export { default as BestSelling } from "./BestSelling.vue";
+export { default as BestSellingSection } from "./BestSellingSection.vue";
